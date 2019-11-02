@@ -1,0 +1,43 @@
+{
+    "name": "demo3",
+    "version": "1.0.0",
+    "description": "",
+    "main": "index.js",
+    "scripts": {
+        "start": "webpack",
+        "build0": "webpack",
+        "dev2": "webpack-dev-server --open",
+        "dev0": "webpack-dev-server",
+        "build": "webpack --config webpack.prod.js --mode production",
+        "dev": "webpack-dev-server --open --config webpack.dev.js --mode development"
+    },
+    "keywords": [],
+    "author": "",
+    "license": "ISC",
+    "devDependencies": {
+        "autoprefixer": "^9.7.1",
+        "babel-core": "^6.26.3",
+        "babel-loader": "^7.1.5",
+        "babel-preset-env": "^1.7.0",
+        "babel-preset-react": "^6.24.1",
+        "clean-webpack-plugin": "^0.1.19",
+        "css-loader": "^3.2.0",
+        "extract-text-webpack-plugin": "^4.0.0-beta.0",
+        "file-loader": "^4.2.0",
+        "glob": "^7.1.5",
+        "html-webpack-plugin": "^3.2.0",
+        "node-sass": "^4.13.0",
+        "postcss-loader": "^3.0.0",
+        "purify-css": "^1.2.5",
+        "purifycss-webpack": "^0.7.0",
+        "react": "^16.6.0",
+        "react-dom": "^16.6.0",
+        "sass-loader": "^8.0.0",
+        "style-loader": "^1.0.0",
+        "url-loader": "^2.2.0",
+        "webpack": "^4.41.2",
+        "webpack-cli": "^3.3.10",
+        "webpack-dev-server": "^3.9.0",
+        "webpack-merge": "^4.2.2"
+    }
+}
